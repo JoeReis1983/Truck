@@ -1,4 +1,4 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-darkblue?logo=gitpod)](https://github.com/JoeReis1983/Truck)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-darkblue?logo=gitpod)](https://gitpod.io/#https://github.com/JoeReis1983/Truck)
 
 # spring-boot-app
 
