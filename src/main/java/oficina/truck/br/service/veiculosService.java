@@ -18,7 +18,7 @@ public class veiculosService {
     veiculo.setModelo(modelo);;
     veiculo.setPlaca(placa);;
     veiculo.setProprietario(proprietario);
-    veiculo.setAno(ano);;
+    veiculo.setAno(ano);
     veiculoRepo.save(veiculo);
     return veiculo;   
   }
