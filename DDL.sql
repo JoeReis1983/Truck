@@ -6,6 +6,15 @@ create user 'celso'@'localhost' identified by 'pass123';
 
 grant select, insert, delete, update on oficina.* to celso@'localhost';
 
+
+create table usuarios (
+  id bigint unsigned not null auto_increment,
+  senha varchar(50) not null,
+  email varchar(50) not null,
+  primary key (id),
+  unique key uni_senha_id (id)
+);
+
 create table veiculos (
   id bigint unsigned not null auto_increment,
   modelo varchar(20) not null,
@@ -19,6 +28,7 @@ create table veiculos (
 
 create table clientes (
   id bigint unsigned not null auto_increment,
+  nome varchar(50) not null,
   telefone varchar(50) not null,
   veiculos varchar(20) not null,
   primary key (id),
