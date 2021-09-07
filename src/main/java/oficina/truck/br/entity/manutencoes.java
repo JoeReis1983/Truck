@@ -28,8 +28,8 @@ public class manutencoes {
   @Column(name = "id_cliente")
   private Long id_cliente;
  
-  @Column(name = "id_veiculos")
-  private Long id_veiculos;
+  @Column(name = "id_veiculo")
+  private Long id_veiculo;
 
   public Long getId() {
     return id;
@@ -71,12 +71,12 @@ public class manutencoes {
     this.id_cliente = id_cliente;
   }
 
-  public Long getId_veiculos() {
-    return id_veiculos;
+  public Long getId_veiculo() {
+    return id_veiculo;
   }
 
-  public void setId_veiculos(Long id_veiculos) {
-    this.id_veiculos = id_veiculos;
+  public void setId_veiculo(Long id_veiculo) {
+    this.id_veiculo = id_veiculo;
   }
 
   

@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import oficina.truck.br.entity.manutencoes;
 
-public interface manutencoesRepository extends JpaRepository <manutencoes, Long>{
-  public List<manutencoes> findByNome(String servico);
+public interface manutencoesRepository extends JpaRepository <manutencoes, String>{
+  public List<manutencoes> findByServico(String servico);
   
 }

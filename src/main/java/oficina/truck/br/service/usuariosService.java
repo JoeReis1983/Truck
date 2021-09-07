@@ -6,6 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import oficina.truck.br.entity.usuarios;
 import oficina.truck.br.repository.usuariosRepository;
+
+@Service
 public class usuariosService {
   @Autowired
   private usuariosRepository usuariosRepo;
