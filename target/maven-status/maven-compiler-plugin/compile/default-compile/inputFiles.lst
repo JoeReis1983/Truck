@@ -1,0 +1,13 @@
+/workspace/Truck/src/main/java/oficina/truck/br/repository/manutencoesRepository.java
+/workspace/Truck/src/main/java/oficina/truck/br/repository/veiculosRepository.java
+/workspace/Truck/src/main/java/oficina/truck/br/entity/veiculos.java
+/workspace/Truck/src/main/java/oficina/truck/br/entity/clientes.java
+/workspace/Truck/src/main/java/oficina/truck/br/BrApplication.java
+/workspace/Truck/src/main/java/oficina/truck/br/repository/usuariosRepository.java
+/workspace/Truck/src/main/java/oficina/truck/br/entity/manutencoes.java
+/workspace/Truck/src/main/java/oficina/truck/br/repository/clientesRepository.java
+/workspace/Truck/src/main/java/oficina/truck/br/service/manutencoesService.java
+/workspace/Truck/src/main/java/oficina/truck/br/entity/usuarios.java
+/workspace/Truck/src/main/java/oficina/truck/br/service/usuariosService.java
+/workspace/Truck/src/main/java/oficina/truck/br/service/clientesService.java
+/workspace/Truck/src/main/java/oficina/truck/br/service/veiculosService.java

@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class BrApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testInicial() {
+		String teste ="Testando";
+		System.out.println(teste);
 	}
 
 }

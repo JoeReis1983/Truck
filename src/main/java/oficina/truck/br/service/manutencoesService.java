@@ -13,7 +13,7 @@ public class manutencoesService {
   private manutencoesRepository manutencaoRepo;
   
   @Transactional
-  public manutencoes cadastrarManutencoes(String servico,String valor, String  dia, String id_cliente, String id_veiculos){
+  public manutencoes cadastrarManutencoes(String servico,String valor, String  dia, Long id_cliente, Long id_veiculos){
 
     manutencoes manutencao = new manutencoes();
     manutencao.setServico(servico);

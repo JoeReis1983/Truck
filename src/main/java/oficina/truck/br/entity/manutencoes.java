@@ -63,19 +63,19 @@ public class manutencoes {
     this.dia = dia;
   }
 
-  public String getId_cliente() {
+  public Long getId_cliente() {
     return id_cliente;
   }
 
-  public void setId_cliente(String id_cliente) {
+  public void setId_cliente(Long id_cliente) {
     this.id_cliente = id_cliente;
   }
 
-  public String getId_veiculos() {
+  public Long getId_veiculos() {
     return id_veiculos;
   }
 
-  public void setId_veiculos(String id_veiculos) {
+  public void setId_veiculos(Long id_veiculos) {
     this.id_veiculos = id_veiculos;
   }
 
